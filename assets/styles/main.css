@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 1rem;
+  width: 25rem;
+  min-height: 30rem;
+  height: 60vh;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1rem;
+}
+
+.about {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about > img {
+  border-radius: 50%;
+  height: 5.5rem;
+  margin-top: 1.5rem;
+}
+
+.about > h1 {
+  font-family: 'Inter';
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.about > h2 {
+  font-family: 'Inter';
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.about > p {
+  font-family: 'Inter';
+  color: hsl(0, 0%, 100%);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.links {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link {
+  background-color: hsl(0, 0%, 20%);
+  width: 80%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter';
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
